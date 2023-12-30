@@ -1,7 +1,7 @@
 import React from "react";
 
 const PrismaExample = () => {
-  return <div>PrismaExample</div>;
+  return <div className="text-7xl">PrismaExample</div>;
 };
 
 export default PrismaExample;

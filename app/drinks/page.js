@@ -1,7 +1,7 @@
 import React from "react";
 
 const DrinksPage = () => {
-  return <div>DrinksPage</div>;
+  return <div className="text-7xl">DrinksPage</div>;
 };
 
 export default DrinksPage;
