@@ -1,19 +1,19 @@
 import Link from "next/link";
 
-const Navbar = () => {
-  const Links = [
-    { path: "/", content: "Home" },
-    { path: "/about", content: "About" },
-    { path: "/about/info", content: "Info" },
-    { path: "/client", content: "Client" },
-    { path: "/drinks", content: "Drinks" },
-    // { path: "/prisma-example", content: "Prisma example" },
-    { path: "/query", content: "Query" },
-  ];
+const Links = [
+  { path: "/", content: "Home" },
+  { path: "/about", content: "About" },
+  { path: "/about/info", content: "Info" },
+  { path: "/client", content: "Client" },
+  { path: "/drinks", content: "Drinks" },
+  // { path: "/prisma-example", content: "Prisma example" },
+  { path: "/query", content: "Query" },
+];
 
+const Navbar = () => {
   return (
     <nav className="bg-base-300 py-4">
-      <div className="navbar px-8 mx-w-6xl mx-auto flex-col sm:flex-row">
+      <div className="navbar px-8 max-w-6xl mx-auto flex-col sm:flex-row">
         <Link href="/" className="btn btn-primary">
           NextJs
         </Link>
