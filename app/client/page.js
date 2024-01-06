@@ -36,11 +36,19 @@ const ClientPage = () => {
 
   return (
     <div className="text-7xl">
-      <button onClick={handleDecrement} disabled={decrementLimitFlag}>
+      <button
+        onClick={handleDecrement}
+        style={{ color: decrementLimitFlag ? "red" : "black" }}
+        disabled={decrementLimitFlag}
+      >
         -
       </button>
       {count}
-      <button onClick={handleIncrement} disabled={incrementLimitFlag}>
+      <button
+        onClick={handleIncrement}
+        style={{ color: incrementLimitFlag ? "red" : "black" }}
+        disabled={incrementLimitFlag}
+      >
         +
       </button>
       {decrementLimitFlag ? <div>decrement limit reached</div> : <></>}
