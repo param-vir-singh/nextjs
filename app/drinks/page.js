@@ -40,7 +40,7 @@ const DrinksPage = async () => {
             <li key={drink.idDrink}>
               <Link
                 href={`/drinks/${drink.idDrink}`}
-                content={drink.strInstructions}
+                // content={drink.strInstructions}
               >
                 <DrinksList drink={drink} key={drink.idDrink}></DrinksList>
               </Link>

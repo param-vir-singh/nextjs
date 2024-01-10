@@ -6,6 +6,7 @@ const DrinksList = ({ drink }) => {
     <div>
       {/* <h2>Drink List Page</h2> */}
       <p>{drink.strDrink}</p>
+      <img src={drink.strDrinkThumb}></img>
     </div>
   );
 };
